@@ -1,0 +1,92 @@
+
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#night{
+ background: #8d8989ab;
+}
+
+#rdv{
+    background: #35b15abb;
+}
+
+#repas{
+    background: #e7962bbe;
+}
+
+#reunion {
+    background: #e7672bbe;
+}
+
+#privé {
+    background: #e72b6abe;
+}
+
+#sortie{
+    background: #2b67e7be;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.table-container {
+    margin: 1em auto;
+    width: 90%;
+    max-width: 1800px;
+    border-collapse: collapse;
+}
+
+
+td {
+    border: 1px solid #d9d9d9;
+    padding: 0.5em;
+}
+
+th {
+    
+    background: #5a8fcc;
+    color: white;
+    padding: 0.5em;
+    border: 1px solid #5a8fcc;
+}
+
+.flex-row {
+    width: 3%;
+}
+
+.flex-row,
+.flex-cell {
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+
+    th,
+    td {
+        width: auto;
+        display: block;
+        border: 0;
+    }
+
+    th {
+        border-left: solid 1px #5a8fcc;
+        border-right: solid 1px #5a8fcc;
+        border-bottom: solid 1px #5a8fcc;
+    }
+
+    td {
+        border-left: solid 1px #d9d9d9;
+        border-right: solid 1px #d9d9d9;
+        border-bottom: solid 1px #d9d9d9;
+    }
+
+    .flex-row {
+        width: 100%;
+    }
+}
