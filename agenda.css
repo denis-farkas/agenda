@@ -7,27 +7,27 @@ body {
     padding: 0;
 }
 
-#night{
+.night{
  background: #8d8989ab;
 }
 
-#rdv{
+.rdv{
     background: #35b15abb;
 }
 
-#repas{
+.repas{
     background: #e7962bbe;
 }
 
-#reunion {
+.reunion {
     background: #e7672bbe;
 }
 
-#privé {
+.yoga {
     background: #e72b6abe;
 }
 
-#sortie{
+.sortie{
     background: #2b67e7be;
 }
 
