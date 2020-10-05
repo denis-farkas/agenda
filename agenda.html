@@ -7,13 +7,14 @@
    
     <title>Agenda</title>
 </head>
+<header><a class="button" href="formulaire.html">Ajout Activité</a></header>
 <body>
 <table class="table-container" width="100%" role="table" aria-label="Octobre 2020">
     <caption>Octobre 2020</caption>
 
     <thead>
         <tr class="flex-table header" role="rowgroup">
-            <th class="flex-row first" role="columnheader">Horaires</th>
+            <th class="flex-row" role="columnheader">Horaires</th>
             <th class="flex-row" role="columnheader" id="1">Jeudi 1</th>
             <th class="flex-row" role="columnheader" id="2">vendredi 2</th>
             <th class="flex-row" role="columnheader" id="3">Samedi 3</th>
@@ -51,47 +52,13 @@
 
 
     <tbody>
-        <tbody>
+        
             <tr class="flex-table row night" role="rowgroup">
-                <td class="flex-row" role="cell">00h00 05h00</td>
+                <td class="flex-row" role="cell">00h00 06h00</td>
                 <td class="flex-row" role="cell" headers="1">-</td>
                 <td class="flex-row" role="cell" headers="2">-</td>
                 <td class="flex-row sortie" role="cell" headers="3" rowspan="20">week-end Normandie</td>
                 <td class="flex-row sortie" role="cell" headers="4" rowspan="20">week-end Normandie</td>
-                <td class="flex-row" role="cell" headers="5">-</td>
-                <td class="flex-row" role="cell" headers="6">-</td>
-                <td class="flex-row" role="cell" headers="7">-</td>
-                <td class="flex-row" role="cell" headers="8">-</td>
-                <td class="flex-row" role="cell" headers="9">-</td>
-                <td class="flex-row" role="cell" headers="10">-</td>
-                <td class="flex-row" role="cell" headers="11">-</td>
-                <td class="flex-row" role="cell" headers="12">-</td>
-                <td class="flex-row" role="cell" headers="13">-</td>
-                <td class="flex-row" role="cell" headers="14">-</td>
-                <td class="flex-row" role="cell" headers="15">-</td>
-                <td class="flex-row" role="cell" headers="16">-</td>
-                <td class="flex-row" role="cell" headers="17">-</td>
-                <td class="flex-row" role="cell" headers="18">-</td>
-                <td class="flex-row" role="cell" headers="19">-</td>
-                <td class="flex-row" role="cell" headers="20">-</td>
-                <td class="flex-row" role="cell" headers="21">-</td>
-                <td class="flex-row" role="cell" headers="22">-</td>
-                <td class="flex-row" role="cell" headers="23">-</td>
-                <td class="flex-row" role="cell" headers="24">-</td>
-                <td class="flex-row" role="cell" headers="25">-</td>
-                <td class="flex-row" role="cell" headers="26">-</td>
-                <td class="flex-row" role="cell" headers="27">-</td>
-                <td class="flex-row" role="cell" headers="28">-</td>
-                <td class="flex-row" role="cell" headers="29">-</td>
-                <td class="flex-row" role="cell" headers="30">-</td>
-                <td class="flex-row" role="cell" headers="31">-</td>
-            </tr>
-
-            <tr class="flex-table row" role="rowgroup">
-                <td class="flex-row first" role="cell">05h00 06h00</td>
-                <td class="flex-row" role="cell" headers="1">-</td>
-                <td class="flex-row" role="cell" headers="2">-</td>
-                
                 <td class="flex-row" role="cell" headers="5">-</td>
                 <td class="flex-row" role="cell" headers="6">-</td>
                 <td class="flex-row" role="cell" headers="7">-</td>
@@ -320,7 +287,7 @@
                 <td class="flex-row" role="cell" headers="30">-</td>
                 <td class="flex-row" role="cell" headers="31">-</td>
             </tr>
-            <tr class="flex-table row" role="rowgroup">
+            <tr class="flex-table row heure-repas" role="rowgroup">
                 <td class="flex-row first" role="cell">12h00 13h00</td>
                 <td class="flex-row repas" role="cell" headers="1" rowspan="2">Repas Acilor</td>
                 <td class="flex-row" role="cell" headers="2">-</td>
@@ -353,7 +320,7 @@
                 <td class="flex-row" role="cell" headers="30">-</td>
                 <td class="flex-row" role="cell" headers="31">-</td>
             </tr>
-            <tr class="flex-table row" role="rowgroup">
+            <tr class="flex-table row heure-repas" role="rowgroup">
                 <td class="flex-row first" role="cell">13h00 14h00</td>
                
                 <td class="flex-row" role="cell" headers="2">-</td>
@@ -647,8 +614,8 @@
                 <td class="flex-row" role="cell" headers="30">-</td>
                 <td class="flex-row" role="cell" headers="31">-</td>
             </tr>
-            <tr class="flex-table row" id="night" role="rowgroup">
-                <td class="flex-row first" role="cell">22h00 23h00</td>
+            <tr class="flex-table row night" role="rowgroup">
+                <td class="flex-row first" role="cell">22h00 24h00</td>
                 <td class="flex-row" role="cell" headers="1">-</td>
                 <td class="flex-row" role="cell" headers="2">-</td>
                 
@@ -680,38 +647,8 @@
                 <td class="flex-row" role="cell" headers="30">-</td>
                 <td class="flex-row" role="cell" headers="31">-</td>
             </tr>
-            <tr class="flex-table row" id="night" role="rowgroup">
-                <td class="flex-row first" role="cell">23h00 24h00</td>
-                <td class="flex-row" role="cell" headers="1">-</td>
-                <td class="flex-row" role="cell" headers="2">-</td>
-                
-                <td class="flex-row" role="cell" headers="5">-</td>
-                <td class="flex-row" role="cell" headers="6">-</td>
-                <td class="flex-row" role="cell" headers="7">-</td>
-                <td class="flex-row" role="cell" headers="8">-</td>
-                <td class="flex-row" role="cell" headers="9">-</td>
-                <td class="flex-row" role="cell" headers="10">-</td>
-                <td class="flex-row" role="cell" headers="11">-</td>
-                <td class="flex-row" role="cell" headers="12">-</td>
-                <td class="flex-row" role="cell" headers="13">-</td>
-                <td class="flex-row" role="cell" headers="14">-</td>
-                <td class="flex-row" role="cell" headers="15">-</td>
-                <td class="flex-row" role="cell" headers="16">-</td>
-                <td class="flex-row" role="cell" headers="17">-</td>
-                <td class="flex-row" role="cell" headers="18">-</td>
-                <td class="flex-row" role="cell" headers="19">-</td>
-                <td class="flex-row" role="cell" headers="20">-</td>
-                <td class="flex-row" role="cell" headers="21">-</td>
-                <td class="flex-row" role="cell" headers="22">-</td>
-                <td class="flex-row" role="cell" headers="23">-</td>
-                <td class="flex-row" role="cell" headers="24">-</td>
-                <td class="flex-row" role="cell" headers="25">-</td>
-                <td class="flex-row" role="cell" headers="26">-</td>
-                <td class="flex-row" role="cell" headers="27">-</td>
-                <td class="flex-row" role="cell" headers="28">-</td>
-                <td class="flex-row" role="cell" headers="29">-</td>
-                <td class="flex-row" role="cell" headers="30">-</td>
-                <td class="flex-row" role="cell" headers="31">-</td>
-            </tr>
+    </tbody>
+    
+</table>      
 </body>
 </html>
